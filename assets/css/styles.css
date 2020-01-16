@@ -41,13 +41,20 @@ body {
     font-size: 24px;
     text-align: center;
     background-color: #fff;
+    background-image: linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
     background-image: -webkit-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
+    background-image: -moz-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
+    background-image: -ms-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
     background-position: 100% 0;
     background-size: 200% 200%;
     color: transparent;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
     background-clip: text;
     -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
     transition: 1s;
 }
 .services a:hover {
@@ -89,11 +96,16 @@ body {
     top: 0;
     left: 0;
     background-color: #000;
+    background-image: linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, #ff3083 51%, #7800a8 75%, #1e539e 100%,  transparent 50%);
     background-image: -webkit-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, #ff3083 51%, #7800a8 75%, #1e539e 100%,  transparent 50%);
+    background-image: -moz-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, #ff3083 51%, #7800a8 75%, #1e539e 100%,  transparent 50%);
+    background-image: -ms-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, #ff3083 51%, #7800a8 75%, #1e539e 100%,  transparent 50%);
     background-position: 100% 0;
     background-size: 200% 200%;
     color: transparent;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
     background-clip: text;
     transition-property: background-position;
     transition-duration: 0.4s;
@@ -162,12 +174,19 @@ body {
     padding: 0 30px;
     background-color: #1b1b1b;
     background-image: -webkit-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
+    background-image: -moz-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
+    background-image: -ms-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
+    background-image: linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
     background-position: 100% 0;
     background-size: 200% 200%;
     color: transparent;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
     background-clip: text;
     -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
     transition: 1s;
 }
 .nav-item:hover {
@@ -401,11 +420,16 @@ h2 {
     top: 50px;
     right: 10%;
     background-color: #fff;
+    background-image: linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
     background-image: -webkit-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
+    background-image: -moz-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
+    background-image: -ms-linear-gradient(left, #ff3083 0%, #7800a8 25%, #1e539e 50%, transparent 50%);
     background-position: 100% 0;
     background-size: 200% 200%;
     color: transparent;
     -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
     background-clip: text;
     -webkit-transition: background-position 0.3s;
     transition: background-position 0.3s;
